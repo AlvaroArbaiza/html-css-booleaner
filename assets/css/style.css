@@ -15,7 +15,7 @@ header {
 }
 
 .contenitore {
-    margin: 25px 0;
+    margin: 40px 0;
 }
 
 article,
@@ -34,7 +34,7 @@ h1 {
     line-height: 60px;
 }
 
-#sottotitolo {
+h3 {
     color: grey;
     font-size: 25px;
 }
@@ -78,4 +78,19 @@ li {
 
 .tr-body {
     background-color: #AEE4F1;
+}
+
+.article {
+    height: 280px;
+}
+.monitor {
+    background: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.graph {
+    background: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
 }
