@@ -10,8 +10,41 @@ header {
     background-size: 600px;
     height: 150px;
 }
+
+.contenitore {
+    margin: 20px 0;
+}
+
+article,
+footer {
+    margin-left: 10px;
+}
+
 #logo {
     width: 20%;
     margin-top: 50px;
     margin-left: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#sottotitolo {
+    color: grey;
+    font-size: 25px;
+}
+
+#booleaner-sottotitolo {
+    color: cornflowerblue;
+}
+
+#data-sottotitolo {
+    font-size: 20px;
+
+}
+
+.tim-berners {
+    height: 500px;
 }
