@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#logo-header,
+article,
+footer {
+    width: 80%;
+}
+header {
+    background: url(../img/pattern.png);
+    background-color: cornflowerblue;
+    background-size: 600px;
+    height: 150px;
+}
+
+.contenitore {
+    margin: 40px 0;
+}
+
+#logo {
+    width: 20%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+h3 {
+    color: grey;
+    font-size: 25px;
+}
+
+#booleaner-sottotitolo {
+    color: #20A9E5;
+}
+
+#data-sottotitolo {
+    font-size: 20px;
+
+}
+
+.tim-berners {
+    height: 400px;
+}
+
+p,
+ul,
+table {
+    font-size: 20px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 0;
+}
+
+li {
+    margin-left: 1em;
+}
+
+.column {
+    width: 30%;
+}
+
+#tr-head {
+    background-color: #20A9E5;
+    color: white;
+}
+
+.tr-body {
+    background-color: #AEE4F1;
+}
+
+.article {
+    height: 280px;
+}
+.monitor {
+    background: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.graph {
+    background: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.footer {
+    color: white;
+    padding: 10px;
+}
