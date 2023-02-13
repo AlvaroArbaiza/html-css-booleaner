@@ -37,7 +37,7 @@ h1 {
 }
 
 #booleaner-sottotitolo {
-    color: cornflowerblue;
+    color: #20A9E5;
 }
 
 #data-sottotitolo {
@@ -47,4 +47,32 @@ h1 {
 
 .tim-berners {
     height: 500px;
+}
+
+p,
+ul,
+table {
+    font-size: 20px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 0;
+}
+
+li {
+    margin-left: 1em;
+}
+
+.column {
+    width: 30%;
+}
+
+#tr-head {
+    background-color: #20A9E5;
+    color: white;
+}
+
+.tr-body {
+    background-color: #AEE4F1;
 }
