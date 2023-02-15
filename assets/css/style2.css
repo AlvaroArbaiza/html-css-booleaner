@@ -1,20 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-
 * {
-    box-sizing: border-box;
     margin: 0 auto;
-    padding: 0;
-    font-family: 'Libre Baskerville', serif;
 }
 
-#logo-header,
-article,
-footer {
+.center {
     width: 80%;
 }
 header {
     background: url(../img/pattern.png);
-    background-color: cornflowerblue;
+    background-color: rgb(78, 160, 255);
     background-size: 600px;
     height: 150px;
 }
@@ -24,7 +17,6 @@ header {
 }
 
 #logo {
-    width: 20%;
     margin-top: 50px;
 }
 
@@ -44,29 +36,21 @@ h3 {
 
 #data-sottotitolo {
     font-size: 20px;
-
 }
 
 .tim-berners {
     height: 400px;
 }
 
-p,
-ul,
-table {
+.font20 {
     font-size: 20px;
+}
+
+.txtleft {
     text-align: left;
 }
 
-table {
-    border-spacing: 0;
-}
-
-li {
-    margin-left: 1em;
-}
-
-.column {
+table thead tr .column {
     width: 30%;
 }
 
